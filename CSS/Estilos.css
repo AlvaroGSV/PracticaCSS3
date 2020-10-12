@@ -1,0 +1,16 @@
+header{
+    background: black;
+}
+header nav ul li{
+    display: inline-block;
+    color: white;
+    margin: 5px;
+}
+
+header nav{
+    display: inline-block;
+}
+
+#logo{
+    width: 140px;
+}
