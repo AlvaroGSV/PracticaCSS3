@@ -1,3 +1,6 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 header{
     background: black;
 }
@@ -5,6 +8,7 @@ header nav ul li{
     display: inline-block;
     color: white;
     margin: 5px;
+    font-size: 13px;
 }
 
 header nav{
@@ -13,4 +17,47 @@ header nav{
 
 #logo{
     width: 140px;
+}
+.Buscador{
+    float: right;
+    width: 120px;
+    height: 30px;
+    margin: 10px 5px 0 0;
+    background: black;
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: grey;
+}
+
+.boton{
+    font-size: 12px;
+    background: white;
+    height: 30px;
+    width: 100px;
+    font-weight: 600;
+    border: none;
+}
+
+footer{
+    background: #313131;
+}
+.enlaces div{
+    width: 20%;
+    vertical-align: top;
+    display: inline-block;
+    margin: 15px;
+    padding: 10px;
+}
+.enlaces h4{
+    color: white;
+}
+.enlaces a{
+    width: 90%;
+    display: block;
+    color: #8a898a;
+    font-style: italic;
+    text-decoration: none;
+}
+.enlaces{
+    border-bottom: 1px solid #8a898a;
 }
